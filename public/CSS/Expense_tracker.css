@@ -1,0 +1,96 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url('../assests/images/image2.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 980px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    box-shadow: 0 3px 20px rgba(0, 123, 255, 0.3);
+    border-radius: 12px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+
+#expense-tracker {
+    color: #78797D;
+}
+
+.card {
+    background-color: rgba(220, 220, 220, 0.8);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 30px;
+}
+
+form {
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+form input, form select, form button {
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+}
+
+form input:focus, form select:focus {
+    border-color: #5bc0de;
+    box-shadow: 0 0 0 0.2rem rgba(91, 192, 222, 0.25);
+}
+
+#addBtn {
+    color: #78797D;
+    border-color: #171412;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+#addBtn:hover {
+    background-color: #EBE0D6;
+    border-color: #171412;
+}
+
+.table {
+    margin-top: 30px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.table th {
+    background-color: #343a40;
+    color: white;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f8f9fa;
+}
+
+.table-hover tbody tr:hover {
+    background-color: rgba(0, 123, 255, 0.1);
+}
+
+.text-end {
+    font-size: 1.25rem;
+    color: #333;
+    font-weight: 600;
+}
+
+#total-amount {
+    color: #007bff;
+}
